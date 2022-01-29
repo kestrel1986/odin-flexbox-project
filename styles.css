@@ -12,7 +12,29 @@ header {
     flex: 0;
 }
 
+.mainavgeekpics {
+    width: 100%;
+    height: auto;
+}
+
 .topline {
     display: flex;
     justify-content: space-between;
+    padding: 10px 0px 70px 0px;
+}
+
+.mainheadercontent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerlefthandside {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+}
+
+.headerrighthandside {
+    display: flex;
+    align-items: center;
 }
