@@ -1,37 +1,62 @@
 body {
-    margin: 0px 300px 0px 300px;
+    margin: 0px 150px 0px 150px;
 }
 
 header {
     display: flex;
     flex-direction: column;
+    padding: 0 50px 30px 50px;
+    background-color: #1F2937;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-family: Roboto, sans-serif;
 }
 
 .logoimage {
     width: 100px;
-    flex: 0;
+    height: auto;
 }
 
 .mainavgeekpics {
-    width: 100%;
-    height: auto;
+    width: 300px;
 }
 
 .topline {
     display: flex;
     justify-content: space-between;
-    padding: 10px 0px 70px 0px;
+    padding: 15px 0px 20px 0px;
 }
 
 .mainheadercontent {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    gap: 100px;
+    align-items: center;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 20px;
 }
 
 .headerlefthandside {
     display: flex;
     flex-direction: column;
-    padding: 35px;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: Roboto, sans-serif;
 }
 
 .headerrighthandside {
