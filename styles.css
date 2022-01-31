@@ -9,24 +9,27 @@ header {
     background-color: #1F2937;
 }
 
-
 h1 {
     font-size: 48px;
     font-weight: extra-bold;
-    color: #F9FAF8;
-    font-family: Roboto, sans-serif;
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+h1, .logotext {
+    color: #F9FAF8;
+}
+
+h1, a, .logoimageandtext, .headerlefthandside {
     font-family: Roboto, sans-serif;
 }
 
 .logoimageandtext {
     display: flex;
     gap: 10px;
-    font-family: Roboto, sans-serif;
 }
 
 .logoimage {
@@ -36,7 +39,6 @@ a {
 
 .logotext {
     font-size: 24px;
-    color: #F9FAF8;
 }
 
 .mainavgeekpics {
@@ -66,8 +68,7 @@ a {
     display: flex;
     flex-direction: column;
     font-size: 18px;
-    color: #E5E7EB;
-    font-family: Roboto, sans-serif;    
+    color: #E5E7EB;  
 }
 
 .headerrighthandside {
