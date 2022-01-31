@@ -41,6 +41,7 @@ a, .headerlefthandside {
     gap: 20px;
     flex: 1;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .topline {
@@ -50,15 +51,14 @@ a, .headerlefthandside {
 }
 
 .logoimage {
+    display: flex;
     max-width: 50px;
 }
 
 .logotext {
+    display: flex;
     font-size: 24px;
-}
-
-.tapa330 {
-    width: 100%;
+    align-items: center;
 }
 
 .mainavgeekpics {
@@ -69,8 +69,12 @@ a, .headerlefthandside {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 80px;
+    gap: 90px;
     flex-wrap: wrap;
+}
+
+.tapa330 {
+    width: 100%;
 }
 
 .headerlefthandside {
@@ -83,5 +87,21 @@ a, .headerlefthandside {
 .tapimage {
     display: flex;
     flex: 1;
-    min-width: 300px;
+    min-width: 50%;
+}
+
+.signupbutton {
+    width: 100px;
+    background-color:cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+#h1removemargin {
+    margin-bottom: 20px;
+}
+
+#premovemargin {
+    margin-top: 0px;
 }
