@@ -16,7 +16,6 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
 }
 
 h1, .logotext {
@@ -27,51 +26,62 @@ h1, a, .logoimageandtext, .headerlefthandside {
     font-family: Roboto, sans-serif;
 }
 
+a, .headerlefthandside {
+    color: #E5E7EB;
+}
+
 .logoimageandtext {
     display: flex;
     gap: 10px;
+    flex: 1;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.topline {
+    display: flex;
+    padding: 15px 0px 20px 0px;
+    flex-wrap: wrap;
 }
 
 .logoimage {
-    width: 100px;
-    height: auto;
+    max-width: 50px;
 }
 
 .logotext {
     font-size: 24px;
 }
 
-.mainavgeekpics {
-    width: 300px;
+.tapa330 {
+    width: 100%;
 }
 
-.topline {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 0px 20px 0px;
+.mainavgeekpics {
+    width: 100%;
 }
 
 .mainheadercontent {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    gap: 100px;
     align-items: center;
-}
-
-.headerlinks {
-    display: flex;
-    gap: 20px;
+    gap: 80px;
+    flex-wrap: wrap;
 }
 
 .headerlefthandside {
     display: flex;
     flex-direction: column;
     font-size: 18px;
-    color: #E5E7EB;  
+    flex: 1;
 }
 
-.headerrighthandside {
+.tapimage {
     display: flex;
-    align-items: center;
+    flex: 1;
+    min-width: 300px;
 }
