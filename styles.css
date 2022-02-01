@@ -70,7 +70,7 @@ a, .headerlefthandside {
 }
 
 .tapa330 {
-    width: 100%;
+    width: 100%; /*image scales with the size of its container*/
 }
 
 .headerlefthandside {
@@ -110,6 +110,7 @@ h2 {
 .mainbody {
     display: flex;
     flex-direction: column;
+    margin: 15px 0px 40px 0px;
 }
 
 .theheader {
@@ -119,21 +120,33 @@ h2 {
 
 .theimages {
     display: flex;
-    flex: 1;
     gap: 15px;
-    margin: 0px 200px 0px 200px;
-    align-items: flex-start;
-}
-
-.imagecontainer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    margin: 0px 220px 0px 220px;
+    justify-content: center;
+    text-align: center; 
 }
 
 .mainavgeekpics {
     display: flex;
-    flex: 1;
-    width: 100%;
+    width: 100%; /*images scale with the size of their container*/
     border-radius: 15px;
+}
+
+.secondbody {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 220px 100px 220px;
+    background-color: #E5E7EB;
+}
+
+.quotetext {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 200px;
+}
+
+.quotee {
+    display: flex;
+    justify-content: flex-end;
 }
