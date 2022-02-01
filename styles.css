@@ -1,3 +1,7 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
 body {
     margin: 0px 75px 0px 75px;
 }
@@ -11,7 +15,7 @@ header {
 
 h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
 }
 
 a {
@@ -20,10 +24,6 @@ a {
 
 h1, .logotext {
     color: #F9FAF8;
-}
-
-h1, a, .logoimageandtext, .headerlefthandside {
-    font-family: Roboto, sans-serif;
 }
 
 a, .headerlefthandside {
@@ -61,10 +61,6 @@ a, .headerlefthandside {
     align-items: center;
 }
 
-.mainavgeekpics {
-    width: 100%;
-}
-
 .mainheadercontent {
     display: flex;
     flex-direction: row;
@@ -92,7 +88,7 @@ a, .headerlefthandside {
 
 .signupbutton {
     width: 100px;
-    background-color:cornflowerblue;
+    background-color: #3882F6;
     color: white;
     border-radius: 5px;
     border: none;
@@ -104,4 +100,40 @@ a, .headerlefthandside {
 
 #premovemargin {
     margin-top: 0px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.mainbody {
+    display: flex;
+    flex-direction: column;
+}
+
+.theheader {
+    display: flex;
+    justify-content: center;
+}
+
+.theimages {
+    display: flex;
+    flex: 1;
+    gap: 15px;
+    margin: 0px 200px 0px 200px;
+    align-items: flex-start;
+}
+
+.imagecontainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mainavgeekpics {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    border-radius: 15px;
 }
