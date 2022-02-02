@@ -98,13 +98,18 @@ a, .headerlefthandside {
     margin-bottom: 20px;
 }
 
+#h4removemargin {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 #premovemargin {
     margin-top: 0px;
 }
 
 h2 {
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .mainbody {
@@ -130,6 +135,7 @@ h2 {
     display: flex;
     width: 100%; /*images scale with the size of their container*/
     border-radius: 15px;
+    min-width: 100px;
 }
 
 .secondbody {
@@ -143,10 +149,30 @@ h2 {
     display: flex;
     justify-content: center;
     font-size: 36px;
-    font-weight: 200px;
+    font-weight: 300px;
 }
 
 .quotee {
     display: flex;
     justify-content: flex-end;
+}
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    margin: 40px 300px 0px 300px;
+    background-color: #3882F6;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.signup-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signup-right {
+    display: flex;
 }
