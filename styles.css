@@ -28,6 +28,7 @@ a {
 h2 {
     font-size: 36px;
     font-weight: 700;
+    text-align: center;
 }
 
 h1, .logotext, .footertext {
@@ -125,6 +126,8 @@ a, .headerlefthandside {
     display: flex;
     flex-direction: column;
     margin: 15px 0px 40px 0px;
+    max-width: 55%;
+    align-items: center;
 }
 
 .theheader {
@@ -135,16 +138,13 @@ a, .headerlefthandside {
 .theimages {
     display: flex;
     gap: 15px;
-    margin: 0px 220px 0px 220px;
-    justify-content: center;
-    text-align: center; 
+    text-align: center;
 }
 
 .mainavgeekpics {
     display: flex;
     width: 100%; /*images scale with the size of their container*/
     border-radius: 15px;
-    min-width: 100px;
 }
 
 .secondbody {
@@ -171,13 +171,13 @@ a, .headerlefthandside {
 .signup-container {
     display: flex;
     align-items: center;
-    margin: 40px 250px 0px 250px;
     background-color: #3882F6;
     color: white;
     padding: 25px 50px 25px 50px;
     justify-content: space-between;
     gap: 20px;
-    min-width: 45%;
+    margin-top: 40px;
+    min-width: 65%;
 }
 
 .signup-left {
