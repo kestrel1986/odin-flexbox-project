@@ -3,7 +3,10 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0px 75px 0px 75px;
+    align-items: center;
 }
 
 header {
@@ -22,7 +25,12 @@ a {
     text-decoration: none;
 }
 
-h1, .logotext {
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h1, .logotext, .footertext {
     color: #F9FAF8;
 }
 
@@ -70,7 +78,7 @@ a, .headerlefthandside {
 }
 
 .tapa330 {
-    width: 100%; /*image scales with the size of its container*/
+    width: 100%; /*image automatically scales as the size of its container is resized*/
 }
 
 .headerlefthandside {
@@ -113,11 +121,6 @@ a, .headerlefthandside {
     margin-top: 0px;
 }
 
-h2 {
-    font-size: 36px;
-    font-weight: 700;
-}
-
 .mainbody {
     display: flex;
     flex-direction: column;
@@ -149,28 +152,32 @@ h2 {
     flex-direction: column;
     padding: 100px 220px 100px 220px;
     background-color: #E5E7EB;
+    gap: 20px;
 }
 
 .quotetext {
     display: flex;
     justify-content: center;
     font-size: 36px;
-    font-weight: 300px;
+    font-weight: 300;
 }
 
 .quotee {
     display: flex;
     justify-content: flex-end;
+    font-weight: 700;
 }
 
 .signup-container {
     display: flex;
     align-items: center;
-    margin: 40px 300px 0px 300px;
+    margin: 40px 250px 0px 250px;
     background-color: #3882F6;
     color: white;
-    padding: 15px 50px 15px 50px;
+    padding: 25px 50px 25px 50px;
     justify-content: space-between;
+    gap: 20px;
+    min-width: 45%;
 }
 
 .signup-left {
@@ -181,4 +188,13 @@ h2 {
 
 .signup-right {
     display: flex;
+}
+
+.footerend {
+    display: flex;
+    background-color: #1F2937;
+    margin-top: 40px;
+    padding: 20px;
+    justify-content: center;
+    min-width: 100%;
 }
